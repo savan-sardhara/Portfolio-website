@@ -24,6 +24,119 @@
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+         body {
+            background-color: rgb(255, 239, 174);
+            font-family: 'Poppins', sans-serif;
+            color: rgb(103, 0, 0);
+        }
+        .table-container {
+            max-width: 1000px; /* Increased width */
+            margin: 50px auto;
+            padding: 30px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 15px; /* More curve for modern look */
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: rgb(103, 0, 0);
+            text-align: center;
+            font-size: 3rem; /* Increased heading size */
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+        table {
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th {
+            background-color: rgb(103, 0, 0);
+            color: rgb(255, 255, 255);
+            font-size: 1.8rem; /* Bigger table headers */
+            padding: 15px;
+            text-align: center;
+        }
+        td {
+            font-size: 1.5rem; /* Bigger font for readability */
+            text-align: center;
+            padding: 15px;
+            border: 2px solid rgb(103, 0, 0); /* Thicker border */
+            transition: all 0.3s ease-in-out; /* Smooth effect */
+        }
+        table, th, td {
+            border-collapse: collapse;
+        }
+        .rounded-table {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Hover Effects */
+        tbody tr:hover {
+            background-color: rgba(103, 0, 0, 0.1); /* Light red hover */
+            transition: background-color 0.3s ease-in-out;
+        }
+        tbody td:hover {
+            transform: scale(1.05); /* Slightly enlarges the cell */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+        .personal-details {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 15px;
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .personal-details h2 {
+            color: rgb(103, 0, 0);
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .personal-details ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.3rem;
+        }
+
+        .personal-details li {
+            background: rgba(103, 0, 0, 0.1);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .personal-details strong {
+            color: rgb(103, 0, 0);
+            width: 180px;
+            display: inline-block;
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+
+        /* Hover Effects */
+        .personal-details li:hover {
+            transform: scale(1.05);
+            background: rgba(103, 0, 0, 0.2);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
     
 </head>
 <body>
@@ -79,7 +192,7 @@
                 </div>
             </div>
             <div class="row pt-40">
-                <div class="col-lg-3 col-md-4 col-sm-6">
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="experience">
                         <span>06 years</span>
                         <p>of experience</p>
@@ -96,10 +209,51 @@
                         <span>Multiple</span>
                         <p>industry awards</p>
                     </div>
-                </div>
+                </div> -->
+               
             </div>
+            
         </div>
+        
         </section>
+        <div class="table-container">
+    <h2>Educational Details</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Field of Study</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Master of Computer Applications (MCA)</td>
+                <td>Atmiya University</td>
+                <td>2023 - Present</td>
+                <td>Computer Applications</td>
+            </tr>
+            <tr>
+                <td>Bachelor of Computer Applications (BCA)</td>
+                <td>Atmiya University</td>
+                <td>2020 - 2023</td>
+                <td>Computer Applications</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="personal-details">
+    <h2>Personal Details</h2>
+    <ul>
+        <li><strong>Name:</strong> Savan Sardhara</li>
+        <li><strong>Email:</strong> savansardhara36@gmail.com</li>
+        <li><strong>Location:</strong> Kolithad,Rajkot,India </li>
+        <li><strong>Languages:</strong> English, Gujarati, Hindi</li>
+        <li><strong>Interests:</strong> AI, Web & Mobile Development, Public Speaking, Tech Exploration</li>
+    </ul>
+</div>
         <!-- About  End-->
     </main>
     <footer>
