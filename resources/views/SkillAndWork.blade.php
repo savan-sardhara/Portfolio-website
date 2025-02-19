@@ -68,31 +68,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="row d-flex justify-contnet-center">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-services single-services2 mb-30">
-                            <div class="services-cap">
-                                <h5>Experience<br> Design</h5>
-                                <p>Switzerland where I am a full time Product Designer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-services single-services2 mb-30">
-                            <div class="services-cap">
-                                <h5>Interaction<br> Design</h5>
-                                <p>Switzerland where I am a full time Product Designer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-services single-services2 mb-30">
-                            <div class="services-cap">
-                                <h5>Front-end<br> Design</h5>
-                                <p>Switzerland where I am a full time Product Designer.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row d-flex justify-content-center">
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="single-services single-services2 mb-30">
+            <div class="services-cap">
+                <h5>AI & ML<br> Development</h5>
+                <p>Exploring AI tools, local LLMs, and integrating machine learning with applications.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="single-services single-services2 mb-30">
+            <div class="services-cap">
+                <h5>Full-Stack<br> Development</h5>
+                <p>Building web applications with Laravel, React, MongoDB, and cloud technologies.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="single-services single-services2 mb-30">
+            <div class="services-cap">
+                <h5>Public Speaking &<br> Technical Writing</h5>
+                <p>Delivering talks on AI, technology trends, and sharing knowledge through presentations.</p>
+            </div>
+        </div>
+    </div>
+</div>
                 </div>
             </div>
         </section>
